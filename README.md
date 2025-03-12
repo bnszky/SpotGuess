@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+# Opis projektu
+1. W skrócie aplikacja po utworzeniu konta umożliwia utworzenie quizu z dowolnej playlisty dostępnej na platformie Deezer.
+2. Po wklejeniu linku serwer wykonuje requesta do api Deezera i pobiera playlistę.
+3. Playlista jest sprawdzana w bazie jeśli jej nie ma, jest dodawana do użytkownika. Lista piosenek jest również aktualizowana w Appwrite
+4. Następnie losowane jest 10 pytań zamkniętych wraz z preview 30 sekundowym piosenek
+5. Po przejściu testu wyniki są zapisywane w bazie danych i użytkowniku jest przekierowywany do "/home"
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+UX był bazowany na Spotify
+Link do [figmy](https://www.figma.com/design/9NELnEWo7eSFOuDYkYRWWK/SpotGuess-App-Screens?node-id=1-2&p=f&t=tpomhe3uOQ7QZHzy-0)
 
-## Get started
+# Album
+![image](https://github.com/user-attachments/assets/e9544d20-ebbb-40d1-99eb-1954f3faef6c)
+![image](https://github.com/user-attachments/assets/90b094fa-f798-478e-afdb-e5e97445c804)
+![image](https://github.com/user-attachments/assets/032f3efc-710a-4c85-9a21-4daf6b9a035e)
+![image](https://github.com/user-attachments/assets/5537f818-e1bc-4d4e-84d9-b60797004aec)
+![image](https://github.com/user-attachments/assets/78c1d9a0-815a-4d7b-8109-1cd6b34dc585)
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
